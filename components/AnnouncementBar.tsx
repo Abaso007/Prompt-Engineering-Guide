@@ -29,14 +29,15 @@ const AnnouncementBar: React.FC = () => {
         color: 'white',
         padding: '10px 20px',
         textAlign: 'center',
-        fontSize: '0.9rem',
+        fontSize: '1rem',
+        fontWeight: 500,
         borderBottom: '1px solid #7c3aed',
         display: isMenuOpen ? 'none' : 'block',
       }}
     >
-      🚀 Master building AI workflows and agents with Claude Code! Use <strong style={{ fontWeight: 'bold' }}>EARLYBIRDCC3</strong> for 20% off{' '}
+      🚀 Learn to build apps with Claude Code! Use <strong style={{ fontWeight: 800, backgroundColor: 'rgba(255,255,255,0.2)', padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.5px' }}>PROMPTING</strong> for 20% off{' '}
       <Link
-        href="https://dair-ai.thinkific.com/courses/claude-code-for-everyone-cohort-3"
+        href="https://academy.dair.ai/courses/build-apps-with-claude-code"
         target="_blank"
         rel="noopener noreferrer"
         style={{

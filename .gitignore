@@ -18,6 +18,7 @@ agent.toml
 content_suggestions/
 .claude/
 .qodo/
+Prompt-Engineering-Guide-notes/
 
 # app
 .next
